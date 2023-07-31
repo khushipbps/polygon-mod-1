@@ -1,0 +1,30 @@
+{
+  "name": "erc721-nft-contract",
+  "version": "1.0.0",
+  "description": "This project contains a simple ERC-721 compliant smart contract for creating and managing non-fungible tokens (NFTs) on the Polygon blockchain. The contract allows users to mint new NFTs, set their metadata (URI), and check the total supply and balance of NFTs.",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kayleexx/ERC721-NFT-Contract.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kayleexx/ERC721-NFT-Contract/issues"
+  },
+  "homepage": "https://github.com/Kayleexx/ERC721-NFT-Contract#readme",
+  "dependencies": {
+    "@nomicfoundation/hardhat-verify": "^1.0.4",
+    "@openzeppelin/contracts": "^4.9.3",
+    "dotenv": "^16.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.6"
+  }
+}
